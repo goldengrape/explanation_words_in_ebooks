@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# sensitive data
+token.txt  
+test/
+未命名*
+
 # C extensions
 *.so
 
