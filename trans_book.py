@@ -21,9 +21,9 @@ import argparse
 # In[6]:
 
 
-def process_book(epub_filename, output_filename, word_judge, dict_filename, token_filename):
-    with open(token_filename, 'r') as f:
-        token=f.read()
+def process_book(epub_filename, output_filename, word_judge, dict_filename, token):
+    # with open(token_filename, 'r') as f:
+    #     token=f.read()
     sdict=DictCsv(dict_filename)
     
     try:

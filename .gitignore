@@ -7,6 +7,8 @@ __pycache__/
 token.txt  
 test/
 未命名*
+temp/
+tmp/
 
 # C extensions
 *.so
